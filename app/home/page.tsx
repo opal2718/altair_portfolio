@@ -1,20 +1,20 @@
 "use client"
 
 import * as React from "react"
-import Link from "next/link"
+//import Link from "next/link"
 
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
+//import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
-  NavigationMenuContent,
+  //NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
+  //NavigationMenuTrigger,
+  //navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-
+/*
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Alert Dialog",
@@ -51,7 +51,7 @@ const components: { title: string; href: string; description: string }[] = [
     description:
       "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
   },
-]
+]*/
 
 export default function NavigationMenuDemo() {
   return (
